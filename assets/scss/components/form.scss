@@ -1,0 +1,89 @@
+.floating-field {
+  label {
+    position: absolute;
+    bottom: 0;
+    font-size: 1.3rem;
+    margin-right: 16px;
+    transition: all 0.3s ease-in-out;
+    color: var(--gray)
+  }
+  input {
+    display: bloc;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    &:focus,
+    &:active {
+      border-bottom: 1px solid #ccc;
+      box-shadow: none;
+    }
+    & + .f-border {
+      position: absolute;
+      right: 50%;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background-color: var(--primary);
+      transition: all 0.5s ease-in-out;
+    }
+    &:focus, &.not-null {
+      & + .f-border {
+        right: 0;
+        width: 100%;
+      }
+      & ~ label {
+        bottom:  35px;
+        font-size: 80%;
+        color: var(--dark)
+      }
+    }
+  }
+}
+.multiselect__option--highlight, .multiselect__tag{
+  background-color: var(--primary);
+}
+
+.multiselect__tags {
+  background-color: #f4f4f3
+}
+.multiselect__input, .multiselect__single {
+  background-color: transparent;
+  margin-right: 20px
+}
+
+.multiselect__tag-icon:after {
+  content: "\D7";
+  color: #f9f9f9;
+  font-size: 21px;
+}
+
+.multiselect__tag-icon:focus, .multiselect__tag-icon:hover {
+  background: transparent
+}
+
+.multiselect__tag-icon {
+  border-radius: 0
+}
+
+.multiselect__content-wrapper {
+  z-index: 99
+}
+
+$shadow: none;
+$bg: transparent;
+.multiselect__tags {
+    background-color: #f4f4f3;
+    border-radius: 0;
+    border: none;
+    background: transparent;
+}
+.multiselect__content-wrapper {
+  border-radius: 0;
+  border: none;
+  background-color: #fff;
+  box-shadow: $shadow
+}
+.multiselect--active {
+  background-color: $bg;
+  box-shadow: $shadow;
+}

@@ -1,0 +1,45 @@
+@import '~intl-tel-input/build/css/intlTelInput.css';
+.intl-tel-input {
+  display: block !important;
+}
+
+input[type="tel"] {
+  direction: ltr !important;
+  text-align: right !important;
+}
+.intl-tel-input .selected-flag .iti-arrow {
+  right: auto !important;
+  left: 6px !important;
+}
+
+.flag-box{
+  margin-left: 12px !important;
+  margin-right: 0 !important;
+}
+.flag-box .iti-flag{
+ margin: 0 !important
+}
+.intl-tel-input .country-list {
+  position: absolute !important;
+  text-align: right !important;
+  margin: 0 -1px 0 0 !important;
+}
+input[type="tel"] {
+  direction: ltr !important;
+  text-align: right !important;
+}
+.iti-flag {
+  width: 20px;
+  height: 15px;
+  box-shadow: 0 0 1px 0 #888;
+  background-repeat: no-repeat;
+  background-color: #dbdbdb;
+  background-position: 20px 0;
+}
+.iti-flag {
+  margin: auto;
+}
+.iti-flag.sa {
+  height: 14px;
+  background-position: -4339px 0;
+}

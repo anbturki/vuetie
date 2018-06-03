@@ -1,0 +1,39 @@
+.ic-gradient-bg {
+  @include gradient-directional(#3f3191, #dd287d, -45deg)
+}
+
+:root {
+  --box-shadow: 1px 2px 3px #ccc;
+}
+
+html {
+  height: 100vh
+}
+
+body,
+.h-100 {
+  min-height: 100vh
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  transition: all .2s ease-in-out;
+}
+
+.fade-leave-active {
+  transition: all .2s ease-in-out;
+  opacity: 0;
+}
+
+.multiselect__spinner {
+  position: absolute;
+  left: -3px;
+  right: auto;
+  top: -3px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+}

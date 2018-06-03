@@ -1,0 +1,23 @@
+@import 'bootstrap/bootstrap-rtl.scss';
+
+html, body{
+  direction: rtl;
+  text-align: inherit
+}
+input, select, textarea {
+  font-family: inherit
+}
+.multiselect{
+  text-align: right
+}
+.multiselect__select{
+  left: 1px;
+  right: auto;
+}
+.multiselect__tags{
+  padding-right: 8px;
+  padding-left: 40px
+}
+.multiselect__current, .multiselect__select{
+  line-height: 30px
+}

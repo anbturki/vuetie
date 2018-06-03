@@ -1,0 +1,18 @@
+.vu-toolbar{
+  background-color: #ffffff;
+  padding: rem-calc(10);
+  position: relative;
+  --title{
+    max-width: 50px
+  }
+@media (max-width: 767.98px) { 
+  .vu-toolbar--collapse-menu {
+    position: absolute;
+    bottom: rem-calc((-25));
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    width: auto
+  }
+ }
+}

@@ -1,0 +1,49 @@
+$fa-font-path: '~font-awesome/fonts';
+@import '~font-awesome/scss/font-awesome';
+@import 'bootstrap/bootstrap';
+// Components
+@import 'components/module';
+// Base
+@import 'base/module';
+@import 'app.rtl';
+.multiselect__option--highlight, .multiselect__tag{
+  background-color: var(--primary);
+}
+
+.multiselect__tags {
+  background-color: #f4f4f3
+}
+.multiselect__input, .multiselect__single {
+  background-color: transparent
+}
+
+.multiselect__tag-icon:after {
+  content: "\D7";
+  color: #f9f9f9;
+  font-size: 21px;
+}
+
+.multiselect__tag-icon:focus, .multiselect__tag-icon:hover {
+  background: transparent
+}
+
+.multiselect__tag-icon {
+  border-radius: 0
+}
+
+.multiselect__content-wrapper {
+  z-index: 4
+}
+
+.float-btn{
+	position:fixed !important;
+	width:60px;
+	height:60px;
+	border-radius:50px !important;
+	text-align:center;
+  box-shadow: var(--shadow) !important;
+  z-index: 9;
+  font-size: 1.5rem;
+  display: flex !important;
+  justify-content: center;
+}
