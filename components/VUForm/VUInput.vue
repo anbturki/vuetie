@@ -21,7 +21,7 @@
   </div>
 </template>
 <script>
-import bus from '@/buses/VeeBus'
+// import bus from '@/buses/VeeBus'
 import $ from 'jquery'
 export default {
   name: 'VuInput',
@@ -108,7 +108,7 @@ export default {
   },
   methods: {
     keyupping (e) {
-      bus.$emit('inputChanged', this.name)
+      // bus.$emit('inputChanged', this.name)
       this.$emit('input', e.target.value)
     }
   }

@@ -5,7 +5,7 @@
   <VuContentPlaceholder v-else :height="height" class="m-0"/>
 </template>
 <script>
-import blankImg from '@/assets/images/blank.png'
+import blankImg from '../../assets/images/blank.png'
 import $ from 'jquery'
 export default {
   name: 'VuImgLoader',

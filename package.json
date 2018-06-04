@@ -5,6 +5,7 @@
   "author": "Barakat Turki",
   "license": "MIT",
   "dependencies": {
+    "jquery": "^3.3.1",
     "phone": "^2.0.0",
     "vue-multiselect": "^2.1.0"
   }
