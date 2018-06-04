@@ -1,7 +1,11 @@
 {
   "name": "vuetie",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "main": "index.js",
   "author": "Barakat Turki",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "phone": "^2.0.0",
+    "vue-multiselect": "^2.1.0"
+  }
 }
