@@ -1,6 +1,6 @@
 import VUApp from './components/VUApp/VUApp.vue'
 import VUContainer from './components/VUContainer/VUContainer.vue'
-import VUFlex from './VUFlex/VUFlex.vue'
+import VUFlex from './components/VUFlex/VUFlex.vue'
 import VUContent from './components/VUContent/VUContent.vue'
 import VUToolbar from './components/VUToolbar/VUToolbar.vue'
 import VULayout from './components/VULayout/VULayout.vue'
